@@ -5,6 +5,6 @@ services:
     ports:
       - "8893:8893"
     environment:
-      - "PORT=889"
+      - "PORT=8893"
     volumes:
       - ".:/src"
